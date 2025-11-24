@@ -20,10 +20,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <p>
-                            Hello! My name is Nithin and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS is a lot of fun!
+                            Hello! My name is Nithin and I enjoy engineering the logic that powers the web. My interest in development started when I realized I loved solving complex problems and optimizing data flow — turns out architecting backend systems is where my passion lies!
                         </p>
                         <p>
-                            Fast-forward to today, and I've had the privilege of working at an <a href="#">advertising agency</a>, a <a href="#">start-up</a>, a <a href="#">huge corporation</a>, and a <a href="#">student-led design studio</a>. My main focus these days is building accessible, inclusive products and digital experiences at <a href="#">Upstatement</a> for a variety of clients.
+                            Fast-forward to today, and I've had the privilege of working at <a href="#">Sharp Software Development India</a>, contributing to enterprise-level SDKs and simulators. My main focus these days is building reliable, scalable backend solutions using .NET and modern technologies (though I can jump into the Frontend when needed!).
                         </p>
                         <p>
                             Here are a few technologies I've been working with recently:

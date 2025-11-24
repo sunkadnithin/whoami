@@ -1,16 +1,54 @@
-# React + Vite
+# Hi, I'm Nithin Sunkad 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Backend Developer | System Architect**
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio repository. This site showcases my work, experience, and projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Live Site:** [sunkadnithin.github.io/whoami](https://sunkadnithin.github.io/whoami/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I am a pure **Backend Developer** focused on building robust, scalable engines that power modern applications. While my heart lies in backend architecture and logic, I am fully capable of handling **Frontend** development when the project demands it.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**My Core Stack:**
+- **.NET Core & C#**
+- **Python**
+- **Node.js**
+- **Backend Architecture**
+
+## 📂 Repository Structure
+
+This repository hosts the source code for my portfolio website.
+- `src/data/resume.json`: Contains my latest experience and project details.
+- `src/pages/Blog.jsx`: My technical blog posts.
+
+## 🛠️ Setup (For Reference)
+
+Hey! If you want, you can use my code for free to build your own portfolio.
+To run this site locally:
+
+1.  **Clone the repo**:
+    ```bash
+    git clone https://github.com/sunkadnithin/whoami.git
+    cd whoami
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Update these files with your info**:
+    - `src/data/resume.json` (Your bio, experience, skills)
+    - `src/data/config.json` (Your social links, colors)
+
+4.  **Run the dev server**:
+    ```bash
+    npm run dev
+    ```
+
+## 📄 License
+
+[MIT](LICENSE)

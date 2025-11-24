@@ -10,9 +10,9 @@ const Hero = () => {
             <div className="container">
                 <h1 className="hero-greeting">Hi, my name is</h1>
                 <h2 className="hero-name">{name}.</h2>
-                <h3 className="hero-title">I build things for the web.</h3>
+                <h3 className="hero-title">I engineer robust backend systems.</h3>
                 <p className="hero-description">
-                    I'm a {title} based in Bengaluru, specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Sharp Software Development India.
+                    I'm a {title} based in Bengaluru, specializing in designing scalable architecture and efficient APIs. Currently, I'm focused on building accessible, human-centered products at Sharp Software Development India.
                 </p>
                 <a href="mailto:sunkadnithin@gmail.com" className="btn hero-btn">
                     Get In Touch

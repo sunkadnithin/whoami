@@ -1,6 +1,6 @@
 # Hi, I'm Nithin Sunkad 👋
 
-**Backend Developer | System Architect**
+**Backend Developer**
 
 Welcome to my personal portfolio repository. This site showcases my work, experience, and projects.
 

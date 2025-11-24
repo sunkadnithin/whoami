@@ -22,7 +22,7 @@ const Header = () => {
         { name: 'About', to: '/#about' },
         { name: 'Experience', to: '/#experience' },
         { name: 'Projects', to: '/#projects' },
-        { name: 'Blog', to: '/blog' },
+        // { name: 'Blog', to: '/blog' },
         { name: 'Contact', to: '/#contact' },
     ];
 
@@ -45,9 +45,6 @@ const Header = () => {
                             </Link>
                         )
                     ))}
-                    <a href="./Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small">
-                        Resume
-                    </a>
                 </div>
 
                 <button className="mobile-toggle" onClick={toggleMenu}>
@@ -66,9 +63,6 @@ const Header = () => {
                             </Link>
                         )
                     ))}
-                    <a href="./Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small mobile-btn">
-                        Resume
-                    </a>
                 </div>
             </div>
         </header>

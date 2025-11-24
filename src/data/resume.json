@@ -1,0 +1,69 @@
+{
+  "personalInfo": {
+    "name": "Nithin Sunkad",
+    "title": "Software Developer",
+    "location": "Bengaluru",
+    "phone": "97437 62144",
+    "email": "sunkadnithin@gmail.com",
+    "linkedin": "https://linkedin.com/in/sunkadnithin",
+    "github": "https://github.com/sunkadnithin",
+    "summary": "Results-driven .NET Developer with 2.5+ years of experience designing, developing, and maintaining enterprise web applications using .NET Core, C#, REST APIs, and modern backend technologies. Proven ability to upgrade legacy systems, debug complex issues, and deliver reliable, scalable software solutions. Passionate about clean code, problem-solving, and continuous learning in dynamic development environments."
+  },
+  "experience": [
+    {
+      "company": "Sharp Software Development India Pvt. Ltd.",
+      "location": "Bengaluru",
+      "role": "Member Technical Staff (.NET Developer)",
+      "period": "05/2023 - Present",
+      "description": [
+        "Developed and enhanced Sharp OSA SDK and Sharp OSA Simulator, key components for multifunction printer integration.",
+        "Upgraded Sharp OSA Simulator from .NET 6 → .NET 8, improving runtime performance and compatibility.",
+        "Designed and implemented RESTful and SOAP API integrations to enhance system interoperability.",
+        "Collaborated with QA engineers and regularly interacted with clients to understand requirements, provide updates, and demonstrate new feature implementations.",
+        "Wrote and maintained unit tests using XUnit for backend modules to ensure code reliability and reduce production defects.",
+        "Contributed to the Cocoro-Office (NAS) project using Node.js, upgrading deprecated libraries (Request → Axios) and implementing Jest test coverage.",
+        "Authored detailed technical documentation for APIs and internal integrations.",
+        "Supported integration and testing of APIs to ensure seamless interoperability and system reliability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sharp OSA (Open System Architecture)",
+      "description": "Built and maintained SDK for multifunction printers; upgraded simulator to .NET 8; integrated REST & SOAP APIs; implemented database optimizations; developed unit test suites."
+    },
+    {
+      "title": "Cocoro Office (NAS Project)",
+      "description": "Migrated from deprecated Request library to Axios; developed new API endpoints; added Jest test coverage; improved maintainability and API response efficiency."
+    },
+    {
+      "title": "Emotion-Based Music Player (Academic Project)",
+      "description": "Built a real-time emotion recognition system to play music based on detected facial expressions with 88% accuracy."
+    }
+  ],
+  "skills": {
+    "languages": ["C#", "JavaScript", "Python"],
+    "frameworks": ["Jest", ".NET 8", ".NET Core", ".NET Framework", "Node.js", "PyQt5", "XUnit"],
+    "webTechnologies": ["CSS3", "HTML5", "JSON", "RESTful & SOAP APIs", "XML"],
+    "versionControl": ["Git", "GitHub", "GitLab"],
+    "testing": ["Debugging & Performance Profiling", "Unit Testing (XUnit, Jest)"],
+    "other": ["Postman", "Visual Studio", "VS Code"]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (Computer Science & Engineering)",
+      "institution": "Jain Institute of Technology",
+      "period": "01/2018 - 01/2022"
+    },
+    {
+      "degree": "PUC (PCMB)",
+      "institution": "Anubhava Mantapa PU College",
+      "period": "01/2016 - 01/2018"
+    }
+  ],
+  "certifications": [
+    "Problem Solving Certification — HackerRank (01/2022)",
+    "Machine Learning with Python — IBM (01/2022)",
+    "Data Structures & Algorithms with Python — Udemy (01/2022)"
+  ]
+}

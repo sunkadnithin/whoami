@@ -1,0 +1,15 @@
+{
+    "siteTitle": "Nithin Sunkad | Portfolio",
+    "colors": {
+        "primary": "#0a192f",
+        "secondary": "#112240",
+        "accent": "#64ffda",
+        "textPrimary": "#ccd6f6",
+        "textSecondary": "#8892b0"
+    },
+    "social": {
+        "linkedin": "https://linkedin.com/in/sunkadnithin",
+        "github": "https://github.com/sunkadnithin",
+        "email": "sunkadnithin@gmail.com"
+    }
+}

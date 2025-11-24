@@ -1,0 +1,115 @@
+.experience-inner {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.experience-tabs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: max-content;
+    z-index: 3;
+}
+
+.tab-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    padding: 0 20px 2px;
+    border-left: 2px solid var(--color-tertiary);
+    background-color: transparent;
+    color: var(--color-text-secondary);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.tab-btn:hover,
+.tab-btn:focus {
+    background-color: var(--color-secondary);
+    color: var(--color-accent);
+}
+
+.tab-btn.active {
+    color: var(--color-accent);
+    border-left-color: var(--color-accent);
+    background-color: var(--color-secondary);
+}
+
+.experience-content {
+    margin-left: 20px;
+    width: 100%;
+}
+
+.job-title {
+    color: var(--color-text-primary);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.company-link {
+    color: var(--color-accent);
+}
+
+.job-range {
+    margin-bottom: 25px;
+    color: var(--color-text-secondary);
+    font-family: var(--font-mono);
+    font-size: 13px;
+}
+
+.job-list {
+    list-style: none;
+    padding: 0;
+}
+
+.job-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: var(--color-text-secondary);
+    font-size: 16px;
+}
+
+.job-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+    .experience-inner {
+        display: block;
+    }
+
+    .experience-tabs {
+        flex-direction: row;
+        width: 100%;
+        overflow-x: auto;
+        margin-bottom: 30px;
+        border-left: 0;
+    }
+
+    .tab-btn {
+        border-left: 0;
+        border-bottom: 2px solid var(--color-tertiary);
+        min-width: 120px;
+        justify-content: center;
+    }
+
+    .tab-btn.active {
+        border-left: 0;
+        border-bottom-color: var(--color-accent);
+    }
+
+    .experience-content {
+        margin-left: 0;
+    }
+}

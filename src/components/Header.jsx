@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { Menu, X } from 'lucide-react';
 import '../styles/Header.css';
 
@@ -34,11 +35,17 @@ const Header = () => {
 
                 <div className="desktop-nav">
                     {navLinks.map((link, index) => (
-                        <a key={index} href={link.to} className="nav-link">
-                            <span className="nav-number">0{index + 1}.</span> {link.name}
-                        </a>
+                        link.to.startsWith('/#') ? (
+                            <HashLink key={index} smooth to={link.to} className="nav-link">
+                                <span className="nav-number">0{index + 1}.</span> {link.name}
+                            </HashLink>
+                        ) : (
+                            <Link key={index} to={link.to} className="nav-link">
+                                <span className="nav-number">0{index + 1}.</span> {link.name}
+                            </Link>
+                        )
                     ))}
-                    <a href="/Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small">
+                    <a href="./Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small">
                         Resume
                     </a>
                 </div>
@@ -49,11 +56,17 @@ const Header = () => {
 
                 <div className={`mobile-nav ${isOpen ? 'open' : ''}`}>
                     {navLinks.map((link, index) => (
-                        <a key={index} href={link.to} className="mobile-nav-link" onClick={toggleMenu}>
-                            {link.name}
-                        </a>
+                        link.to.startsWith('/#') ? (
+                            <HashLink key={index} smooth to={link.to} className="mobile-nav-link" onClick={toggleMenu}>
+                                {link.name}
+                            </HashLink>
+                        ) : (
+                            <Link key={index} to={link.to} className="mobile-nav-link" onClick={toggleMenu}>
+                                {link.name}
+                            </Link>
+                        )
                     ))}
-                    <a href="/Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small mobile-btn">
+                    <a href="./Nithin_Sunkad_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-small mobile-btn">
                         Resume
                     </a>
                 </div>

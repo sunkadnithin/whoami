@@ -23,7 +23,7 @@ const About = () => {
                             Hello! My name is Nithin and I enjoy engineering the logic that powers. My interest in development started when I realized I loved solving complex problems and optimizing data flow!
                         </p>
                         <p>
-                            Fast-forward to today, and I've had the privilege of working at <a href="#">Sharp Software Development India</a>, contributing to enterprise-level SDKs and simulators. My main focus these days is building reliable, scalable backend solutions using .NET.
+                            Fast-forward to today, and I've had the privilege of working at <a href="https://www.sharp.co.in/">Sharp Software Development India</a>, contributing to enterprise-level SDKs and simulators. My main focus these days is building reliable, scalable backend solutions using .NET.
                         </p>
                         <p>
                             Here are a few technologies I've been working with recently:

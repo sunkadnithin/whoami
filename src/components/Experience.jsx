@@ -27,7 +27,7 @@ const Experience = () => {
                             <span>{experience[activeTab].role}</span>
                             <span className="company">
                                 &nbsp;@&nbsp;
-                                <a href="#" className="company-link">
+                                <a href="https://www.sharp.co.in/" className="company-link">
                                     {experience[activeTab].company}
                                 </a>
                             </span>

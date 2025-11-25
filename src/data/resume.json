@@ -39,7 +39,12 @@
         "Data Structures"
       ],
       "type": "office",
-      "details": "I work on the Sharp OSA (Open System Architecture) team, maintaining legacy code and developing SDKs that allow third-party applications to interact with Sharp MFPs. My role involves ensuring the stability of the core architecture, maintaining sample applications for external developers, and modernizing internal tools. I recently migrated a Python-based GUI tool from Pyside2 to GTK4 to improve usability and maintainability."
+      "details": "I work on the Sharp OSA (Open System Architecture) team, maintaining legacy code and developing SDKs that allow third-party applications to interact with Sharp MFPs. My role involves ensuring the stability of the core architecture, maintaining sample applications for external developers, and modernizing internal tools. I recently migrated a Python-based GUI tool from Pyside2 to GTK4 to improve usability and maintainability.",
+      "highlights": [
+        "Enterprise-level SDK development",
+        "Legacy code maintenance & modernization",
+        "Python GUI migration (Pyside2 to GTK4)"
+      ]
     },
     {
       "id": "cocoro-office",
@@ -53,7 +58,12 @@
         "HTML/CSS"
       ],
       "type": "office",
-      "details": "Cocoro Office is a cloud-based service providing office solutions, including NAS management. I contributed to the backend services responsible for device management and data synchronization. A key contribution was refactoring the HTTP client layer by replacing deprecated libraries with Axios, which enhanced security and code maintainability. I also worked on the frontend for MFP browsers, ensuring compatibility with older rendering engines using raw HTML and CSS."
+      "details": "Cocoro Office is a cloud-based service providing office solutions, including NAS management. I contributed to the backend services responsible for device management and data synchronization. A key contribution was refactoring the HTTP client layer by replacing deprecated libraries with Axios, which enhanced security and code maintainability. I also worked on the frontend for MFP browsers, ensuring compatibility with older rendering engines using raw HTML and CSS.",
+      "highlights": [
+        "Backend services for device management",
+        "HTTP client layer refactoring (Axios)",
+        "Frontend compatibility for older engines"
+      ]
     },
     {
       "id": "emotion-music-player",
@@ -68,7 +78,12 @@
       ],
       "link": "https://github.com/sunkadnithin/Emotion-Based-Music-player",
       "type": "personal",
-      "details": "This academic project explores the intersection of Computer Vision and user experience. The system detects the user's facial expression in real-time using a webcam and plays music that matches their mood. It uses OpenCV for face detection and a Convolutional Neural Network (CNN) trained on the FER-2013 dataset to classify emotions (Happy, Sad, Angry, Neutral, etc.) with 88% accuracy. The UI was built using Tkinter, and users can manage the playlist and even add custom emotions."
+      "details": "This academic project explores the intersection of Computer Vision and user experience. The system detects the user's facial expression in real-time using a webcam and plays music that matches their mood. It uses OpenCV for face detection and a Convolutional Neural Network (CNN) trained on the FER-2013 dataset to classify emotions (Happy, Sad, Angry, Neutral, etc.) with 88% accuracy. The UI was built using Tkinter, and users can manage the playlist and even add custom emotions.",
+      "highlights": [
+        "Real-time facial expression detection",
+        "CNN with 88% accuracy",
+        "Mood-based music recommendation"
+      ]
     }
   ],
   "skills": {
@@ -81,7 +96,6 @@
       "Jest",
       ".NET 8",
       ".NET Core",
-      ".NET Framework",
       "Node.js",
       "PyQt5",
       "XUnit"

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Github, Lock, Calendar, Tag } from 'lucide-react';
+import { ArrowLeft, Github, Lock, CheckCircle } from 'lucide-react';
 import resume from '../data/resume.json';
 import '../styles/ProjectDetails.css';
 
@@ -23,7 +23,7 @@ const ProjectDetails = () => {
 
     return (
         <div className="project-details-page">
-            <div className="container">
+            <div className="container project-container-centered">
                 <Link to="/#projects" className="back-link">
                     <ArrowLeft size={20} /> Back to Projects
                 </Link>
@@ -38,34 +38,48 @@ const ProjectDetails = () => {
                     </div>
                 </header>
 
-                <div className="project-content">
-                    <div className="project-main">
-                        <div
-                            className="project-body"
-                            dangerouslySetInnerHTML={{ __html: project.details }}
-                        />
+                <div className="project-content-single">
+                    <div className="project-section">
+                        <h3 className="section-title">Brief</h3>
+                        <p className="project-brief">{project.description}</p>
                     </div>
 
-                    <div className="project-sidebar">
-                        <div className="sidebar-card">
-                            <h3>Tech Stack</h3>
-                            <div className="tech-tags-large">
-                                {/* Fallback tags if not in JSON, ideally should be in JSON */}
-                                <span className="tag-large">.NET</span>
-                                <span className="tag-large">C#</span>
-                                <span className="tag-large">Backend</span>
-                            </div>
+                    <div className="project-section">
+                        <h3 className="section-title">Details</h3>
+                        <div className="project-body" dangerouslySetInnerHTML={{ __html: project.details }} />
+                    </div>
+
+                    {project.highlights && (
+                        <div className="project-section">
+                            <h3 className="section-title">Key Highlights</h3>
+                            <ul className="highlights-list">
+                                {project.highlights.map((highlight, index) => (
+                                    <li key={index}>
+                                        <CheckCircle size={18} className="highlight-icon" />
+                                        <span>{highlight}</span>
+                                    </li>
+                                ))}
+                            </ul>
                         </div>
+                    )}
 
-                        {project.link && project.link !== '#' && (
-                            <div className="sidebar-card">
-                                <h3>Links</h3>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="sidebar-link">
-                                    <Github size={20} /> View Source
-                                </a>
-                            </div>
-                        )}
+                    <div className="project-section">
+                        <h3 className="section-title">Tech Stack</h3>
+                        <div className="tech-tags-large">
+                            {project.tech && project.tech.map((tech, index) => (
+                                <span key={index} className="tag-large">{tech}</span>
+                            ))}
+                        </div>
                     </div>
+
+                    {project.link && project.link !== '#' && (
+                        <div className="project-section">
+                            <h3 className="section-title">Links</h3>
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="sidebar-link">
+                                <Github size={20} /> View Source
+                            </a>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>

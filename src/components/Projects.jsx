@@ -52,6 +52,13 @@ const Projects = () => {
                                 <h3 className="project-title">{project.title}</h3>
                                 <div className="project-description">
                                     <p>{project.description}</p>
+                                    {project.highlights && (
+                                        <ul className="project-highlights">
+                                            {project.highlights.map((highlight, hIndex) => (
+                                                <li key={hIndex}>{highlight}</li>
+                                            ))}
+                                        </ul>
+                                    )}
                                 </div>
                                 <div className="project-footer">
                                     <ul className="project-tech-list">

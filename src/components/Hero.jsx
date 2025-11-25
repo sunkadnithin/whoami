@@ -12,7 +12,7 @@ const Hero = () => {
                 <h2 className="hero-name">{name}.</h2>
                 <h3 className="hero-title">I engineer robust backend systems.</h3>
                 <p className="hero-description">
-                    I'm a {title} based in Bengaluru, specializing in designing scalable architecture and efficient APIs. Currently, I'm focused on building accessible, human-centered products at Sharp Software Development India.
+                    I'm a {title} based in Bengaluru, specializing in efficient APIs. Currently, I'm focused on building accessible, human-centered products at Sharp Software Development India.
                 </p>
                 <a href="mailto:sunkadnithin@gmail.com" className="btn hero-btn">
                     Get In Touch

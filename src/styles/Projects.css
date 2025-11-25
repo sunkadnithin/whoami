@@ -90,6 +90,18 @@
     -webkit-box-orient: vertical;
 }
 
+.project-highlights {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: var(--color-text-secondary);
+    font-size: 13px;
+}
+
+.project-highlights li {
+    margin-bottom: 5px;
+}
+
 .project-footer {
     margin-top: auto;
 }
